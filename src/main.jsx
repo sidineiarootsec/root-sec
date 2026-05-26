@@ -86,7 +86,8 @@ function App() {
     Soluções tecnológicas, segurança digital e suporte especializado.
   </p>
 </section>
-      <section id="servicos" className="cards">
+      <section id="servicos" className="services-section">
+  <div className="cards">
         {services.map((s, i) => {
           const Icon = s.icon
           return (
