@@ -34,7 +34,7 @@ function App() {
           <a>Contato</a>
         </nav>
 
-        <a className="whats" href="https://wa.me/5593999999999">
+        <a className="whats" href="https://wa.me/5593981077977">
           <MessageCircle size={18}/> WhatsApp
         </a>
       </header>
