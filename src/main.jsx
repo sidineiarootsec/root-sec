@@ -72,8 +72,8 @@ function App() {
           </div>
           <div className="terminal">
             <p>› ROOT@SEC:~#</p>
-            <strong>ACESSO CONCEDIDO</strong>
-            <i></i>
+            <strong>INICIALIZANDO SISTEMA...</strong>
+           <div className="typing"></div>
           </div>
           <Wifi className="wifi" size={34}/>
         </div>
