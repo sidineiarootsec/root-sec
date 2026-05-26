@@ -72,7 +72,9 @@ function App() {
           </div>
           <div className="terminal">
             <p>› ROOT@SEC:~#</p>
-            <strong>INICIALIZANDO SISTEMA...</strong>
+            <strong className="hack-text">
+  INICIALIZANDO SISTEMA...
+</strong>
            <div className="typing"></div>
           </div>
           <Wifi className="wifi" size={34}/>
