@@ -420,3 +420,17 @@ h1 {
   .terminal { right: -10px; }
   .actions a { width: 100%; text-align: center; }
 }
+.typing {
+  width: 14px;
+  height: 24px;
+  background: #7cff36;
+  margin-top: 12px;
+  box-shadow: 0 0 12px #7cff36;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
