@@ -80,7 +80,12 @@ function App() {
           <Wifi className="wifi" size={34}/>
         </div>
       </section>
-
+<section className="section-title">
+  <h2>SERVIÇOS</h2>
+  <p>
+    Soluções tecnológicas, segurança digital e suporte especializado.
+  </p>
+</section>
       <section id="servicos" className="cards">
         {services.map((s, i) => {
           const Icon = s.icon
